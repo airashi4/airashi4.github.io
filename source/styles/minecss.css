@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+body {
+    font-family: Montserrat, serif;
+    background: linear-gradient(90deg, #d6d6d6 0%, #ffffff 99%);
+}
+
+.nav-link {
+    color: rgb(205, 205, 205)
+}
+.navbar-nav .nav-link.active {
+    color: white
+}
+
+.navbar-brand img {
+    width: 45px;
+}
+
+.navbar-toggler {
+   background-color: white;
+}
+
+.side-bar{
+    background: linear-gradient(270deg, #e5e4e4 0%, #ffffff 99%);
+}
+
+.card {
+    background: linear-gradient(270deg, #e5e4e4 0%, #ffffff 99%);
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.slide-text,
+.footer-text
+ {
+    margin: auto auto;
+}
+
+footer,
+.btn-outline-primary {
+    background: linear-gradient(270deg, #e5e4e4 0%, #ffffff 99%);   
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dota-anim {
+    animation: myAnim 1s ease 0s 5 normal forwards;
+}
+
+@keyframes myAnim {
+    0% {
+        transform: translate(0);
+    }
+
+    20% {
+        transform: translate(2px, -2px);
+    }
+
+    40% {
+        transform: translate(2px, 2px);
+    }
+
+    60% {
+        transform: translate(-2px, 2px);
+    }
+
+    80% {
+        transform: translate(-2px, -2px);
+    }
+
+    100% {
+        transform: translate(0);
+    }
+}
+
+
+@media (max-width: 755px) {
+    .carousel-indicator {
+        display: none;
+    }
+}
